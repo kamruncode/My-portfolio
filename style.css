@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  z-index: 1;
+  height: 100vh;
+  right: 1rem;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.navbar i {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.navbar i:hover {
+  color: rgb(255, 153, 0);
+  opacity: 1;
+}
+header img {
+  margin-top: 10rem;
+
+  height: 18rem;
+  border-radius: 50%;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin: 3rem 0;
+}
+
+.contact {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #000;
+  transition: 0.2s;
+}
+.contact:hover {
+  color: rgb(255, 153, 0);
+  transition: 0.2s;
+  text-decoration: underline;
+}
+.social-m {
+  margin-top: 1rem;
+}
+.social-m a {
+  padding: 5px;
+
+  margin-left: 3px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000;
+  transition: 0.3s;
+}
+
+.portfolio-item {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.m,
+.skills {
+  margin: 1rem 0;
+}
+.m img,
+.skills img {
+  height: 3rem;
+}
+
+.skills {
+  padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-area {
+  padding: 2rem;
+}
+.skill {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.skill:hover {
+  padding: 9px;
+  border: 1px solid rgba(204, 109, 0, 0.247);
+}
+
+.organization {
+  display: flex;
+
+  font-size: 1.4rem;
+}
+.organization a {
+  color: #000;
+  text-decoration: none;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+a:hover {
+  color: rgb(255, 153, 0);
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.intro i {
+  margin-right: 1rem;
+}
